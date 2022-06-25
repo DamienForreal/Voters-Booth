@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="type/css href="styles.css">
+        <title>Voters Booth</title>
+    </head>
+    <!--my goal is to make a booth with either or choice like if was in school
+asking a girl out 'yes or no'-->
+    <body class="voters-booth">
+        <header>
+            <h1 class="header">Your Vote Counts</h1>
+            <p class="paragraph">You've witness what has been going on in the world lately; hell in our own back yards, 
+                it's "time we all take the time" and Vote!</p>
+<marquee class="color-change">Your Vote Does Make A Difference</marquee>
+        </header>
+        <!-- im caught in between should i use 'two divs within the div ' 
+        to create side by side options, or 'side by side inputs' not sure 
+    trying both -->
+        <div class="physical-booth">
+           <label>First Name<input type="text" id="name-first" class="name" placeholder="First Name" required/></label>
+          <label>Last Name  <input type="text" id="name-last" class="name" placeholder="Last Name" required/></label>
+<div class="selection">
+<label><input name="user-recommend" value="PersonOne" type="radio" class="input-radio"/>
+PersonOne</label>
+<label><input name="user-recommend" value="PersonTwo" type="radio" class="input-radio"/>
+PersonTwo</label>
+<div class="buttons"><button type="submit" id="submit class="submit-button">Submit</button>
+</div>
+</div>
+</body>
+</html> 
